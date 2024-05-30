@@ -1,0 +1,39 @@
+.col1 {
+    width: 100%;
+    /* height: 100vh; */
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.lable {
+    display: block;
+    margin-bottom: 7px;
+    color: #18c7be;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 15px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.col2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.generate:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+.please{
+    display: flex;
+    float: right;
+}
